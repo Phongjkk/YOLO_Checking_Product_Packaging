@@ -1,0 +1,33 @@
+{
+    "image_size": 640,
+    "training_batch_size": 16,
+    "training_epochs": 10,
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "url_1": "rtsp://admin:KXILGD@192.168.1.152:554/ch1/main",
+    "url_2": "rtsp://admin:BWKUYM@192.168.1.144:554/ch1/main",
+    "url_3": "rtsp://admin:CPSFLT@192.168.1.160:554/ch1/main",
+    "url_4": "",
+    "classes": [
+        "slot", 
+        "mach_nho", 
+        "mach_lon", 
+        "usb_to_jtag", 
+        "day_black", 
+        "day_lgbt", 
+        "day_white", 
+        "pack_circut", 
+        "day_gray", 
+        "full_box"
+    ],
+    "slot_1": "mach_nho",
+    "slot_2": "mach_nho",
+    "slot_3": "mach_nho",
+    "slot_4": "mach_lon",
+    "slot_5": "usb_to_jtag",
+    "slot_6": "day_black",
+    "slot_7": "day_lgbt",
+    "slot_8": "day_white",
+    "slot_9": "pack_circut",
+    "slot_10": "day_gray"
+}

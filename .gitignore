@@ -1,0 +1,15 @@
+__pycache__/
+
+.DS_Store
+
+*.tmp
+
+create_dataset/labels
+create_dataset/raw_image
+
+dataset/
+model/
+
+test_func/process_result_from_yolo/data
+test_func/process_result_from_yolo/output
+test_func/predict_slot/result
